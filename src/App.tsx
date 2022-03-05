@@ -1,6 +1,6 @@
 import { Provider } from 'mobx-react';
 import React from 'react'
-import EmployerComponents from './components/EmployerComponents';
+import { EmployerComponents } from './components/EmployerComponents';
 import { setupRootStore } from './mst/setup';
 
 type Props = {}

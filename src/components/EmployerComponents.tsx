@@ -11,7 +11,7 @@ type State = {}
 @inject("rootTree")
 @observer
 
-export default class EmployerComponents extends Component<Props, State> {
+class EmployerComponents extends Component<Props, State> {
     constructor(props: Props) {
         super(props);
         this.state = {}
@@ -30,3 +30,5 @@ export default class EmployerComponents extends Component<Props, State> {
         )
     }
 }
+
+export { EmployerComponents };
